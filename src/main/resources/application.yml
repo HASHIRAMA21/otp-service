@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+twilio:
+  account-sid: your_account_sid
+  auth-token: your_auth_token
+  phone-number: your_twilio_phone_number
+
+d7:
+  api-key: f3d961db87msh1561d2c05b7564dp1b873cjsn98e437d76419
+  api-host: d7-verify.p.rapidapi.com
+
+telesign:
+  customer-id: your_telesign_customer_id
+  api-key: your_telesign_api_key
+
+otpsms:
+  api-key: f3d961db87msh1561d2c05b7564dp1b873cjsn98e437d76419
+  api-host: otp-sms-verification.p.rapidapi.com
+  twilio-account-sid: your_twilio_account_sid
+  twilio-auth-token: your_twilio_auth_token
+  verify-service-sid: your_verify_service_sid
